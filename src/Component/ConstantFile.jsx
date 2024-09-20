@@ -105,9 +105,21 @@ export const experience = {
     "Developing and implementing highly responsive user interface components using react concepts. In addition, the application includes visualization of user data. ",
     "Working with Stale while revalidating techniques for API calls and Mock service worker for mocking the tests. Working with JavaScript unit and regression test using Jest and Cypress libraries.",
     "Working knowledge of RESTful APIs, ES6 (variables and scoping array methods), code versioning tools like GIT, and CI/CD tools.",
-    "Reviewing user interface mockup and designing the mockup screen using Figma interface tool. Documenting application changes and developing updates on applications.",
-    "Peer to peer code review to ensure the quality, following web standards and consistency of the source code. ",
+    "Reviewing user interface mockup and designing the mockup screen using Figma interface tool. Documenting application changes and developing applications."
   ],
+  WellsFargo:[
+    "Design and developed the Micro Front End application using HTML, CSS, JavaScript, TypeScript, ReactJS, Redux, Ajax, Chart.js, Five9 Softphone APIs.",
+    "Implemented a micro-frontend architecture, facilitating smoother feature rollouts by isolating failures and supporting seamless integration with microservices and enhancing user experience across multiple platforms.",
+    "Good Experience in React.js to create interactive UI's using One-way data ﬂow, Virtual DOM, JSX, and Custom Reusable React Components Library.",
+    "Working knowledge of reusable React Concepts, React Hooks, HOC’s, Context, Portals, and state management Concepts like reducers, and dispatchers.",
+    "Worked in migration of codebase from class components to React function components for better performance.",
+    "Developed a custom reporting dashboard for Bank agents to reference all email, text message and chat data in this dashboard along with a built-in reporting tool to pull reports based on business lines.",
+    "Created reusable templates and style sheets based on UI standards and guidelines. Performed functional tasks using specifications and wireframes.",
+    "Developed the application with cross-browser responsive pages using web technologies for large screen, normal screen, and mobile screen.",
+    "Experience with TDD environment and writing unit test cases using Jest, React Testing library.",
+    "Application was developed using Agile Methodology, which included iterative application development, weekly Sprints, stand up meetings, and streamlining Agile planning.",
+    "Experienced in coding, testing, debugging, documenting, code reviews, and code refactoring."
+  ]
 };
 
 export const timelineCon = [
@@ -169,11 +181,22 @@ export const timelineCon = [
     ),
   },
   {
-    title: "Jun 2022  - Current",
-    cardTitle: "Vertogic [Dallas, Texas] - UI Developer",
+    title: "Jun 2022  - May 2023",
+    cardTitle: "Vertogic [Dallas, Texas] -Senior UI Developer",
     timelineContent: (
       <ul>
         {experience.Vertogic.map((item) => {
+          return <li>{item}</li>;
+        })}
+      </ul>
+    ),
+  },
+  {
+    title: "May 2023  - Present",
+    cardTitle: "Wells Fargo [Dallas, Texas] -Lead Software Engineer",
+    timelineContent: (
+      <ul>
+        {experience.WellsFargo.map((item) => {
           return <li>{item}</li>;
         })}
       </ul>
